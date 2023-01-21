@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webbshop</title>
+    <link rel="stylesheet" type="text/css" href="produkter.css" />
+    <link rel="stylesheet" type="text/css" href="navbar.css" />
+    <link rel="stylesheet" type="text/css" href="footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6b90542a83.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Webbshop</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li>
+            <a href="produkter.html">produkter</a>
+            <ul>
+              <li><a href="#">produkt 1</a></li>
+              <li><a href="#">produkt 2</a></li>
+              <li><a href="produkt 3">produkt 3</a></li>
+            </ul>
+          </li>
+          <li><a href="kontakt.html">kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="produkter">
+        <h2>Produkter</h2>
+        <div class="produktlista">
+          <div class="produkt">
+            <img src="bilder/klister.jpg" alt="Produkt 1" />
+            <div class="produktText">
+              <h3>Klister</h3>
+              <p>Beskrivning av produkt 1</p>
+              <button class="button1">Lägg i kundvagn</button>
+            </div>
+          </div>
+          <div class="produkt">
+            <img src="produkt2.jpg" alt="Produkt 2" />
+            <div class="produktText">
+              <h3>Produkt 2</h3>
+              <p>Beskrivning av produkt 2</p>
+              <button class="button2">Lägg i kundvagn</button>
+            </div>
+          </div>
+          <div class="produkt">
+            <h3>Produkt 3</h3>
+            <img src="produkt3.jpg" alt="Produkt 3" />
+            <p>Beskrivning av produkt 3</p>
+            <button class="button3">Lägg i kundvagn</button>
+          </div>
+        </div>
+      </section>
+      <section class="kundvagnContainer">
+        <div class="kundvagn">
+          <h2>Kundvagn</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Produkt</th>
+                <th>Pris</th>
+                <th>Antal</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Produkt 1</td>
+                <td>100 kr</td>
+                <td><input type="number" value="1" /></td>
+                <td>100 kr</td>
+              </tr>
+              <tr>
+                <td>Produkt 2</td>
+                <td>50 kr</td>
+                <td><input type="number" value="1" /></td>
+
+                <td>100 kr</td>
+              </tr>
+              <tr>
+                <td>Produkt 3</td>
+                <td>75 kr</td>
+                <td><input type="number" value="1" /></td>
+
+                <td>75 kr</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3">Totalt</td>
+                <td>xxx kr</td>
+              </tr>
+            </tfoot>
+          </table>
+          <button>Köp</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a><i class="fa-brands fa-instagram"></i></a>
+      <a><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://canneddog-eat-com.webnode.se/"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+    </footer>
+  </body>
+</html>
