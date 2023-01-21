@@ -9,10 +9,10 @@ body {
 
 h1 {
   margin: 0;
-  color: white;
+  color: #009688;
 }
 header {
-  background: url("bilder/oskar.jpg");
+  background: url("bilder/HJ.jpg");
   background-size: cover;
   background-position: center;
   height: 150px;
